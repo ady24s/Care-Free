@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Care Free - Where Every Movement is a Breath of Freedom</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f5e7e7; /* Soft pink background color */
+            color: #423838; /* Dark grayish brown text color */
+        }
+
+        header {
+            background-color: #da5969; /* Coral pink header background color */
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        header img {
+            max-height: 150px; /* Adjust the height as needed */
+            background-color: #fff; /* White background for the logo */
+            padding: 10px; /* Add some padding to the logo */
+            border-radius: 12px; /* Add rounded corners to the logo */
+        }
+
+        header h1 {
+            font-size: 2em; /* Adjust the font size as needed */
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff; /* White content background color */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section div {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        section h2 {
+            color: #da5969; /* Coral pink heading color */
+        }
+
+        section p {
+            font-size: 16px; /* Slightly larger font size for better readability */
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .feature {
+            width: 48%;
+            padding: 15px;
+            background-color: #f1a1ac; /* Light coral pink feature background color */
+            border-radius: 8px;
+            margin-bottom: 15px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .feature:hover {
+            background-color: #da5969; /* Darker coral pink on hover for added visual appeal */
+        }
+
+        .feature h3 {
+            color: #fff;
+            margin-bottom: 10px;
+        }
+
+        .join-us {
+            text-align: center;
+            background-color: #da5969; /* Coral pink background color */
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .join-us h2 {
+            color: #fff;
+        }
+
+        .join-us p {
+            color: #fff;
+        }
+
+        .shopping-tab {
+            text-align: center;
+            background-color: #da5969; /* Coral pink background color */
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .shopping-tab h2 {
+            color: #fff;
+        }
+
+        .shopping-tab p {
+            color: #fff;
+        }
+
+        footer {
+            background-color: #b84856; /* Bold coral pink footer background color */
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="file:///home/adyasha/Desktop/Carefree.jpeg" alt="Care Free Logo">
+        <h1>Care Free</h1>
+        <p>Where Every Movement is a Breath of Freedom</p>
+    </header>
+
+    <section>
+        <div>
+            <h2>Vision</h2>
+            <p>Envisioning a world where every woman embraces menstruation with confidence and comfort, fostering sustainable choices for positive change.</p>
+        </div>
+        <div>
+            <h2>Mission</h2>
+            <p>Redefining care through sustainable banana fiber pads, prioritizing women's well-being, and empowering farmers for economic growth. Join us on the journey of accessible and sustainable menstrual hygiene, enriching lives and communities.</p>
+        </div>
+        <div>
+            <h2>Company Description</h2>
+            <p>Care Free is a pioneering startup dedicated to revolutionizing menstrual hygiene in rural India. We aim to empower not only women through providing a sustainable menstrual hygiene solution but also local farmers by sourcing banana fibers as a raw material. This approach aligns with the principles of social and environmental responsibility, addressing both hygiene needs and contributing to sustainable practices.</p>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="feature">
+            <h3>Sustainable Choices</h3>
+            <p>Our products are crafted with sustainable materials, ensuring a positive impact on the environment.</p>
+        </div>
+        <div class="feature">
+            <h3>Empowering Communities</h3>
+            <p>Join us in empowering communities by supporting economic growth for farmers through our initiatives.</p>
+        </div>
+        <div class="feature">
+            <h3>Comfort and Confidence</h3>
+            <p>Experience menstruation with comfort and confidence with our innovative and caring solutions.</p>
+        </div>
+        <div class="feature">
+            <h3>Positive Change</h3>
+            <p>Be a part of the positive change we're creating, one carefree movement at a time.</p>
+        </div>
+    </section>
+
+    <section class="join-us">
+        <h2>Join Us</h2>
+        <p>Join the Care Free community and be a part of a movement that values sustainable choices, empowers individuals, and creates positive change. Together, we can make every movement a breath of freedom.</p>
+    </section>
+
+    <section class="shopping-tab">
+        <h2>Shop Online</h2>
+        <p>Explore our online store for a variety of sustainable and caring products.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Care Free. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
